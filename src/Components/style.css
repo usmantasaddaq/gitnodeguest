@@ -1,0 +1,181 @@
+.landingPage_style {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: rgb(0, 165, 153);
+}
+.EmumbaStyle {
+  padding-left: 100px;
+  padding-top: 8px;
+}
+.SearchBoxStyle {
+  padding-left: 600px;
+}
+.BtnStyle {
+  padding-left: 20px;
+}
+.MuiInputBase-input {
+  height: 0.1876em !important;
+  width: 300px !important;
+  border-radius: 15px !important;
+  padding-left: 10px !important;
+  padding-bottom: 5px !important;
+}
+label {
+  padding-left: 10px !important;
+  padding-bottom: 5px !important;
+  font-size: 15px !important;
+}
+
+element.style {
+  background-color: white;
+  color: rgb(0, 165, 153);
+}
+
+.css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+  text-transform: none !important;
+}
+.Btn_Style {
+  margin-top: 0.25%;
+  margin-bottom: 1%;
+  display: flex;
+  justify-content: flex-end;
+}
+.css-f3jnds-MuiDataGrid-columnHeaders {
+  background-color: lightcyan !important;
+}
+.css-zow5z4-MuiGrid-root > .MuiGrid-item {
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+}
+.css-1633um2-MuiPaper-root {
+  height: 259px !important;
+
+  box-shadow: azure;
+}
+.griddisplay {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 0.5%;
+}
+.griddisplay > div {
+  width: 28% !important;
+  max-width: inherit !important;
+  margin: 1% !important;
+}
+.css-mjlvw-MuiToggleButtonGroup-root {
+  flex-direction: row !important;
+  border: none !important;
+}
+.css-mjlvw-MuiToggleButtonGroup-root
+  .MuiToggleButtonGroup-grouped:not(:last-of-type) {
+  padding: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border: none;
+}
+.css-mjlvw-MuiToggleButtonGroup-root
+  .MuiToggleButtonGroup-grouped:not(:first-of-type) {
+  padding: 10px;
+  margin-top: 1px;
+  border-top: 1px solid transparent;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border: none;
+}
+
+.popup-box {
+  position: fixed;
+  width: 100%;
+  height: 150vh;
+  top: 0.25;
+  left: 0;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+}
+.box {
+  padding: 30px;
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+  max-height: 150vh;
+  background: #fff;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow: 100px;
+  box-shadow: #fff;
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+
+.lineStyle {
+  box-shadow: #fff;
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+
+.inputField {
+  width: 70%;
+  padding-left: 20px;
+  padding-right: 20px;
+  top: 150px;
+  border-color: #fff;
+  line-height: 30px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: #fff;
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+.textField {
+  width: 70%;
+  padding-left: 20px;
+  padding-right: 20px;
+  top: 150px;
+  border-color: #fff;
+  line-height: 60px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: #fff;
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+
+.BtnStyle1 {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+}
+.imageStyle{
+  display:flex ;
+  padding-right: 600px;
+  padding-top: 22px;
+}
