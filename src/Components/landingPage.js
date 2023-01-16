@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "./style.css";
 import IconButton from "@material-ui/core/IconButton";
-import InputAdornment from "@material-ui/core/InputAdornment";
 import TextField from "@material-ui/core/TextField";
 import SearchIcon from "@mui/icons-material/Search";
+import InputAdornment from "@material-ui/core/InputAdornment";
 import Button from "@mui/material/Button";
 import ListIcon from "@mui/icons-material/List";
 import GridViewIcon from "@mui/icons-material/GridView";
@@ -102,8 +102,7 @@ const LandingPage = () => {
             }}
             onChange={inputHandler}
           />
-        </div>
-        <div className="BtnStyle">
+        
           {active ? (
             <img
               onClick={togglePopup}

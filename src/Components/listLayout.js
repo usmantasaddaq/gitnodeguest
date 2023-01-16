@@ -24,8 +24,7 @@ function ListLayout(props) {
         style={{ justifyContent: "center" }}
         rows={filteredData}
         columns={columns}
-        StarOutlineIcon={StarOutlineIcon}
-        ShareOutlinedIcon={ShareOutlinedIcon}
+      
         pageSize={9}
         rowsPerPageOptions={[10]}
         checkboxSelection
